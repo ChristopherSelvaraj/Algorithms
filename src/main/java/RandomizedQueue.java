@@ -1,3 +1,4 @@
+import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
@@ -128,8 +129,6 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         for (Integer i : randomizedQueue) {
             StdOut.println(i);
         }
-
-
     }
 
 }
