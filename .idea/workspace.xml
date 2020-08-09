@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eea85084-9a09-43b0-adf0-ffbe7fb2d0d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BruteCollinearPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FastCollinearPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LineSegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/NoLineSegment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/equidistant.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/puzzle04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/puzzle3x3-unsolvable.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/8puzzle.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Solver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/puzzle04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/puzzle3x3-unsolvable.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
@@ -19,12 +19,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RandomizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RandomizedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/Algorithm-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Algorithm-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +45,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Algorithm" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Algorithm" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -77,35 +79,42 @@
   <component name="FindBugs-IDEA-Workspace">
     <toolWindowGroupBy>Class</toolWindowGroupBy>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>per</find>
-      <find>demil</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XRalDGb9ieyf9m0FuPBAAD6KQj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574677335844" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.18466611" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.BruteCollinearPoints">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Solver">
     <configuration name="BruteCollinearPoints " type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BruteCollinearPoints " />
       <module name="Algorithm.main" />
@@ -122,10 +131,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastCollinearPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FastCollinearPoints" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Permutation" />
       <module name="Algorithm.main" />
-      <option name="PROGRAM_PARAMETERS" value="equidistant.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solver" />
+      <module name="Algorithm.main" />
+      <option name="PROGRAM_PARAMETERS" value="puzzle3x3-unsolvable.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,39 +165,20 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Algorithms [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Application.FastCollinearPoints" />
       <item itemvalue="Application.BruteCollinearPoints " />
       <item itemvalue="Application.BruteCollinearPoints" />
-      <item itemvalue="Gradle.Algorithms [clean]" />
+      <item itemvalue="Application.Permutation" />
+      <item itemvalue="Application.Solver" />
       <item itemvalue="Gradle.Algorithms [build]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solver" />
+        <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.BruteCollinearPoints" />
         <item itemvalue="Application.BruteCollinearPoints " />
         <item itemvalue="Gradle.Algorithms [build]" />
-        <item itemvalue="Gradle.Algorithms [clean]" />
-        <item itemvalue="Application.FastCollinearPoints" />
       </list>
     </recent_temporary>
   </component>
@@ -202,33 +199,64 @@
       <workItem from="1584000862403" duration="1034000" />
       <workItem from="1584104770310" duration="77000" />
       <workItem from="1593332016617" duration="1023000" />
+      <workItem from="1593369416215" duration="2696000" />
+      <workItem from="1593422477969" duration="282000" />
+      <workItem from="1593422875950" duration="18363000" />
+      <workItem from="1595224820778" duration="948000" />
+      <workItem from="1595229057025" duration="2395000" />
+      <workItem from="1595235805249" duration="45000" />
+      <workItem from="1595235868633" duration="13766000" />
+      <workItem from="1596804463875" duration="10237000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593332782255">
+    <state x="440" y="152" key="#Plugins" timestamp="1595235849007">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state x="304" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.963@0.23.1680.963" timestamp="1593332782255" />
-    <state width="1638" height="259" key="GridCell.Tab.0.bottom" timestamp="1593332785885">
+    <state x="440" y="152" key="#Plugins/0.23.1680.963@0.23.1680.963" timestamp="1595235849007" />
+    <state x="304" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596820399323">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1638" height="259" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593332785885" />
-    <state width="1638" height="259" key="GridCell.Tab.0.center" timestamp="1593332785884">
+    <state x="304" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.963@0.23.1680.963" timestamp="1596820399323" />
+    <state width="798" height="259" key="GridCell.Tab.0.bottom" timestamp="1596822582611">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1638" height="259" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593332785884" />
-    <state width="1638" height="259" key="GridCell.Tab.0.left" timestamp="1593332785884">
+    <state width="798" height="259" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1596822582611" />
+    <state width="798" height="259" key="GridCell.Tab.0.center" timestamp="1596822582610">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1638" height="259" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593332785884" />
-    <state width="1638" height="259" key="GridCell.Tab.0.right" timestamp="1593332785885">
+    <state width="798" height="259" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1596822582610" />
+    <state width="798" height="259" key="GridCell.Tab.0.left" timestamp="1596822582610">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1638" height="259" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593332785885" />
+    <state width="798" height="259" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1596822582610" />
+    <state width="798" height="259" key="GridCell.Tab.0.right" timestamp="1596822582610">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="798" height="259" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1596822582610" />
+    <state x="494" y="339" key="com.intellij.ide.util.TipDialog" timestamp="1593422682287">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="494" y="339" key="com.intellij.ide.util.TipDialog/0.23.1680.963@0.23.1680.963" timestamp="1593422682287" />
+    <state x="537" y="404" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1595224877061">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="537" y="404" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1680.963@0.23.1680.963" timestamp="1595224877061" />
+    <state x="578" y="246" key="extract.method.dialog" timestamp="1596812104107">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="578" y="246" key="extract.method.dialog/0.23.1680.963@0.23.1680.963" timestamp="1596812104107" />
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1596818161394">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.23.1680.963@0.23.1680.963" timestamp="1596818161394" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
